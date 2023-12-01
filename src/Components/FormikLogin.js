@@ -14,7 +14,7 @@ const FormikLogin = () => {
 
   return (
     <div>
-      <Formik initialValues={formik.initialValues} onSubmit={formik.onSubmit}>
+      <Formik initialValues={formik.initialValues} onSubmit={formik.handleSubmit}>
         <form onSubmit={formik.handleSubmit}>
           <label htmlFor='username'>Username</label>
           <input
